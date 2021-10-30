@@ -131,7 +131,8 @@ img{
   align-items: center;
   font-weight: var(--font-semi);
 }
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 923px){
   .nav__menu{
     position: fixed;
     top: var(--header-height);
@@ -225,14 +226,7 @@ img{
   width: 295px;
 }
 
-@media screen and (min-width: 927px){
-  .work__img{
-    box-shadow: 0 4px 25px rgba(14,36,49,.15);
-    border-radius: .5rem;
-    overflow: hidden;
-    height: 180px;
-  }
-}
+
 /*BUTTONS*/
 .button{
   display: inline-block;
@@ -340,6 +334,7 @@ img{
 .work__container > div > p{
   color:var( --first-color);
 }
+
 .work__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .5rem;
@@ -394,6 +389,15 @@ img{
   font-size: 1.5rem;
   color: #fff;
   margin: 0 var(--mb-2)
+}
+
+@media screen and (min-width: 927px){
+  .work__img{
+    box-shadow: 0 4px 25px rgba(14,36,49,.15);
+    border-radius: .5rem;
+    overflow: hidden;
+    height: 180px;
+  }
 }
 
 /* ===== MEDIA QUERIES=====*/
